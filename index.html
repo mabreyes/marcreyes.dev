@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <title>🚀 XYZ &mdash; Marc Reyes</title>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="stylesheet.css" rel="stylesheet">
 <link rel="shortcut icon" href="https://marcreyes.ph/assets/icons/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <style>
     * {
-        font-family: 'Space Mono', monospace;
+        font-family: 'Sharp Grotesk', monospace;
+        line-height: 1.5em;
     }
     
     body {
@@ -18,7 +19,7 @@
     }
     
     body {
-        font: 20px Helvetica, sans-serif;
+        font: 20px 'Sharp Grotesk', sans-serif;
         color: #333;
     }
     
@@ -26,6 +27,17 @@
         fill: #10a7d3;
         width: 100px;
         height: 100px;
+    }
+    
+    tr,
+    td {
+        border: 1px solid black;
+        padding: 10px;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin-bottom: 50px;
     }
     
     article {
@@ -49,6 +61,11 @@
         color: #10a7d3;
         font-weight: 700 !important;
     }
+    
+    span.footer {
+        font-size: 13px;
+        color: #4e4e4e
+    }
 </style>
 
 <article>
@@ -57,10 +74,24 @@
     <p><span class="color">XYZ</span> is a collection of projects I built on my free time.</p>
     <p>📬 <a href="mailto:hi@marcreyes.xyz?subject=What's new at marcreyes.xyz">hi@marcreyes.xyz</a> for job and project opportunities.</p>
     <div>
-        <ul>
-            <li>🌿 TensorFlow Plant Leaf Disease Prediction - <a href="https://tf-plant-disease-prediction.marcreyes.xyz/">tf-plant-disease-prediction.marcreyes.xyz</a></li>
-            <li>🏫 Philippine Island Kids International Foundation Incorporated Student Database - <a href="https://pikifi.marcreyes.xyz/">pikifi.marcreyes.xyz</a></li>
-            <li>📱 PalayLab Android App - <a href="https://github.com/marcreyesph/palaylab-mobile">github.com/marcreyesph/palaylab-mobile</a></li>
-        </ul>
+        <table>
+            <tr width="20px">
+                <td>🌿 TensorFlow Plant Leaf Disease Prediction</td>
+                <td><a href="https://tf-plant-disease-prediction.marcreyes.xyz/">Visit Site</a></td>
+            </tr>
+            <tr>
+                <td>🏫 Philippine Island Kids International Foundation Incorporated Student Database</td>
+                <td><a href="https://pikifi.marcreyes.xyz/">Visit Site</a></td>
+            </tr>
+            <tr>
+                <td>📱 PalayLab Android App</td>
+                <td><a href="https://github.com/marcreyesph/palaylab-mobile">Visit GitHub Page</td>
+            </tr>
+            <tr>
+                <td>👥 Project Pag-Apil (Open Bangsamoro Data Challenge)</td>
+                <td><a href="https://project-pagapil.marcreyes.xyz">Visit Site</a></td>
+            </tr>
+        </table>
+        <span class="footer">&copy; 2020 Marc Reyes<br>More about me at <a href="https://marcreyes.ph">marcreyes.ph</a></span>
     </div>
 </article>
