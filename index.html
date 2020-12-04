@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <title>🚀 XYZ &mdash; Marc Reyes</title>
-<link href="shgr/stylesheet.css" rel="stylesheet">
+<link href="circular/fonts.css" rel="stylesheet">
 <link rel="shortcut icon" href="https://marcreyes.ph/assets/icons/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta name="theme-color" content="#10a7d3">
 <style>
     * {
-        font-family: 'Sharp Grotesk 22', sans-serif;
+        font-family: 'Circular', sans-serif;
         font-weight: 300;
         line-height: 1.6em;
     }
@@ -18,15 +18,16 @@
     }
     
     h1 {
-        font-family: 'Sharp Grotesk 22', sans-serif;
-        font-weight: 600;
-        font-size: 50px;
+        font-family: 'Circular', sans-serif;
+        font-weight: 800;
+        font-size: 90px;
+        letter-spacing: -5px;
         line-height: 1.3em;
         margin: 20px 0 0 0;
     }
     
     body {
-        font: 20px 'Sharp Grotesk 22', sans-serif;
+        font: 20px 'Circular', sans-serif;
         color: #333;
     }
     
@@ -50,7 +51,7 @@
     article {
         display: block;
         text-align: left;
-        width: 650px;
+        width: 800px;
         margin: 0 auto;
     }
     
@@ -58,10 +59,7 @@
         font-weight: 600 !important;
         color: #10a7d3;
         text-decoration: none;
-    }
-    
-    a:hover {
-        text-decoration: underline;
+        border-bottom: 2px solid #10a7d3;
     }
     
     span.color {
@@ -80,39 +78,36 @@
     }
     
     .card {
-        padding: 1em;
+        padding: 1.2em;
         background-color: #ffffff;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         border-radius: 10px;
         margin-bottom: 20px;
     }
     
     .card h1 {
-        font-size: 1.2em;
-        line-height: 1.5em;
+        font-family: 'Circular', sans-serif;
+        font-weight: 700;
+        font-size: 2em;
+        letter-spacing: -0.8px;
+        line-height: 1.4em;
         margin: 10px 0 10px 0;
     }
     
     .card a {
         display: inline-block;
-        font-size: 0.7em;
+        font-size: inherit;
         text-decoration: none;
+        border: none;
         color: #ffffff;
         background: #10a7d3;
-        padding: 10px 20px 10px 20px;
+        padding: 10px 30px 10px 30px;
         border-radius: 5px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         position: relative;
         letter-spacing: normal !important;
-        font-weight: 700;
-    }
-    
-    .card a::after {
-        content: " →";
+        margin-right: 10px;
     }
     
     .card a:nth-child(2) {
@@ -124,12 +119,8 @@
     }
     
     .card p {
-        font-size: 0.7em;
+        font-size: inherit;
         margin: 0;
-    }
-    
-    .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
     
     .about {
@@ -137,7 +128,7 @@
         margin-bottom: 10px;
     }
     
-    @media (max-width: 900px) {
+    @media (max-width: 1145px) {
         article {
             width: 90%;
             margin: 0 auto;
@@ -147,7 +138,7 @@
         }
     }
     
-    @media (max-width: 840px) {
+    @media (max-width: 1000px) {
         body {
             padding: 5px;
         }
@@ -168,9 +159,8 @@
 <body oncontextmenu="return false" onselectstart="return false">
     <article>
         <svg version="1.1" id="logo_fixed" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><polygon points="369.403,43.939 255.999,157.339 142.597,43.939 0,43.939 0,468.061 151.385,468.061 151.385,266.815 245.372,360.802 255.999,371.388 256.121,371.266 256.142,371.287 360.615,266.814 360.615,468.061 512,468.061 512,43.939 "></polygon> </svg>
-        <h1>🚀 Welcome to <span class="color">XYZ</span>!</h1>
-        <p><span class="color">XYZ</span> is a collection of projects I built on my free time.</p>
-        <p>📬 <a href="mailto:hi@marcreyes.xyz?subject=What's new at marcreyes.xyz">hi@marcreyes.xyz</a> for job and project opportunities.</p>
+        <h1>🚀 Welcome to <span class="color">XYZ</span>.</h1>
+        <p><span class="color">XYZ</span> is a collection of projects I built on my free time. 📬 <a href="mailto:hi@marcreyes.xyz?subject=What's new at marcreyes.xyz">hi@marcreyes.xyz</a> for job and project opportunities.</p>
         <div class="card">
             <div>
                 <h1>🌿 TensorFlow Plant Leaf Disease Prediction</h1>
