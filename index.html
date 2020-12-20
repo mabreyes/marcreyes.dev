@@ -96,7 +96,8 @@
         margin: 10px 0 10px 0;
     }
     
-    .card a {
+    .card a,
+    button {
         display: inline-block;
         font-size: inherit;
         text-decoration: none;
@@ -125,9 +126,72 @@
         margin: 0;
     }
     
+    .center {
+        text-align: center;
+    }
+    
+    .sponsor {
+        position: sticky;
+        top: 20px;
+        background-color: #10a7d3;
+        color: #fff;
+        z-index: 2;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+    
+    .sponsor button {
+        background-color: transparent;
+        border: 2px solid #fff;
+    }
+    
     .about {
         margin-top: 50px;
         margin-bottom: 10px;
+    }
+    
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        color: #1c2018;
+        backdrop-filter: blur(20px) !important;
+    }
+    
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+    }
+    
+    .modal-content p {
+        font-size: 15px;
+    }
+    
+    .modal-content a {
+        font-size: 15px;
+    }
+    
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
     }
     
     @media (max-width: 1145px) {
@@ -186,6 +250,46 @@
                 <a href="https://pikifi.marcreyes.xyz/">Visit Site</a>
             </div>
         </div>
+        <div class="card center sponsor">
+            <div>
+                <h1>Help me build more open-source projects</h1>
+                <p>Hosting, security, and more. Sponsor some of my projects and your help can go a long way.</p>
+            </div>
+            <div class="about">
+                <button href="#" id="sponsorLaunch">Sponsor Now</button>
+            </div>
+
+            <div id="sponsorModal" class="modal">
+
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h1>Sponsor</h1>
+                    <p>Choose from the options below</p>
+                    <h3>Paypal</h3>
+                    <p style="margin-bottom: 20px;">One-time Sponsorhip</p>
+                    <a href="https://paypal.me/marcreyesph" target="_new" style="margin-bottom: 30px;">Sponsor with PayPal</a>
+
+                    <p style="margin-bottom: 20px;">Recurring Sponsorhip</p>
+                    <form action="https://www.paypal.com/donate" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_donations" />
+                        <input type="hidden" name="business" value="6332RTTB3TNGU" />
+                        <input type="hidden" name="item_name" value="XYZ by Marc Reyes open source project sponsorhip" />
+                        <input type="hidden" name="currency_code" value="USD" />
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                        <img alt="" border="0" src="https://www.paypal.com/en_PH/i/scr/pixel.gif" width="1" height="1" />
+                    </form>
+
+                    <h3>Bitcoin</h3>
+                    <img src="btc.jpg" alt="17onn54pNsgUPJ53STc1ANpGKq4vqZJqbj">
+                    <p>17onn54pNsgUPJ53STc1ANpGKq4vqZJqbj</p>
+
+                    <h3>Etherium</h3>
+                    <img src="eth.jpg" alt="0xBdE5eB5820CFDA424Cc3D764194dA508Ef24fB2b">
+                    <p>0xBdE5eB5820CFDA424Cc3D764194dA508Ef24fB2b</p>
+                </div>
+
+            </div>
+        </div>
         <div class="card">
             <div>
                 <h1>📱 PalayLab Android App</h1>
@@ -234,8 +338,30 @@
             </div>
         </div>
         </div>
+        </div>
         <div class="footer">
             <span>&copy; 2020 Marc Reyes<br>More about me at <a href="https://marcreyes.ph">marcreyes.ph</a></span>
         </div>
     </article>
+    <script>
+        var modal = document.getElementById("sponsorModal");
+
+        var btn = document.getElementById("sponsorLaunch");
+
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 </body>
