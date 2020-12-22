@@ -3,7 +3,6 @@
 <link href="stylesheet.css" rel="stylesheet">
 <link rel="shortcut icon" href="https://marcreyes.ph/assets/icons/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
 <meta name="theme-color" content="#10a7d3">
 <style>
     * {
@@ -150,50 +149,6 @@
         margin-bottom: 10px;
     }
     
-    .navigation-bar {
-        background: #10a7d3;
-        left: 0;
-        position: fixed;
-        right: 0;
-        top: 0;
-        z-index: 1;
-    }
-    
-    .navigation-bar.is-hidden {
-        opacity: 0;
-        -webkit-transform: translate(0, -60px);
-        -webkit-transition: -webkit-transform .2s, background .3s, color .3s, opacity 0 .3s;
-    }
-    
-    .navigation-bar.is-visible {
-        opacity: 1;
-        -webkit-transform: translate(0, 0);
-        -webkit-transition: -webkit-transform .2s, background .3s, color .3s;
-    }
-    
-    .navigation-bar ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .navigation-bar ul li {
-        display: inline-block;
-        padding: 1em;
-    }
-    
-    .navigation-bar button {
-        background: none !important;
-        border: none;
-        padding: 0 !important;
-        cursor: pointer;
-        box-shadow: none;
-    }
-    
-    .content {
-        min-height: 1200px;
-    }
-    
     .modal {
         display: none;
         position: fixed;
@@ -270,44 +225,10 @@
             font-size: 70px;
         }
     }
-    
-    @media (max-width: 750px) {
-        .navigation-bar ul li {
-            font-size: 15px;
-        }
-    }
-    
-    @media (max-width: 595px) {
-        .navigation-bar ul li {
-            font-size: 13px;
-            padding: 0.2em;
-        }
-        .navigation-bar button {
-            padding: 0.7em !important;
-        }
-    }
-    
-    @media (max-width: 520px) {
-        .navigation-bar ul li {
-            font-size: 10px;
-        }
-    }
-    
-    @media (max-width: 405px) {
-        h1 {
-            font-size: 3em;
-        }
-    }
 </style>
 
 <body oncontextmenu="return false" onselectstart="return false">
-    <nav class="navigation-bar is-visible" data-nav-status="toggle">
-        <ul>
-            <li>Help me build more open source projects.</li>
-            <li><button id="sponsorLaunchHeader">Sponsor Now</button></li>
-        </ul>
-    </nav>
-    <article class="content">
+    <article>
         <svg version="1.1" id="logo_fixed" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><polygon points="369.403,43.939 255.999,157.339 142.597,43.939 0,43.939 0,468.061 151.385,468.061 151.385,266.815 245.372,360.802 255.999,371.388 256.121,371.266 256.142,371.287 360.615,266.814 360.615,468.061 512,468.061 512,43.939 "></polygon> </svg>
         <h1>🚀 Welcome to <span class="color">XYZ</span>.</h1>
         <p><span class="color">XYZ</span> is a collection of projects I built on my free time. 📬 <a href="mailto:hi@marcreyes.xyz?subject=What's new at marcreyes.xyz">hi@marcreyes.xyz</a> for job and project opportunities.</p>
@@ -429,15 +350,9 @@
 
         var btn = document.getElementById("sponsorLaunch");
 
-        var btnHeader = document.getElementById("sponsorLaunchHeader");
-
         var span = document.getElementsByClassName("close")[0];
 
         btn.onclick = function() {
-            modal.style.display = "block";
-        }
-
-        btnHeader.onclick = function() {
             modal.style.display = "block";
         }
 
@@ -450,58 +365,5 @@
                 modal.style.display = "none";
             }
         }
-    </script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script>
-        $(document).ready(function() {
-
-            /** ===========================================
-                Hide / show the master navigation menu
-            ============================================ */
-
-            // console.log('Window Height is: ' + $(window).height());
-            // console.log('Document Height is: ' + $(document).height());
-
-            console.log('Window Height is: ' + $(window).height());
-            console.log('Document Height is: ' + $(document).height());
-
-            var previousScroll = 0;
-
-            $(window).scroll(function() {
-
-                var currentScroll = $(this).scrollTop();
-
-                /*
-                  If the current scroll position is greater than 0 (the top) AND the current scroll position is less than the document height minus the window height (the bottom) run the navigation if/else statement.
-                */
-                if (currentScroll > 0 && currentScroll < $(document).height() - $(window).height()) {
-                    /*
-                      If the current scroll is greater than the previous scroll (i.e we're scrolling down the page), hide the nav.
-                    */
-                    if (currentScroll > previousScroll) {
-                        window.setTimeout(hideNav, 300);
-                        /*
-                          Else we are scrolling up (i.e the previous scroll is greater than the current scroll), so show the nav.
-                        */
-                    } else {
-                        window.setTimeout(showNav, 300);
-                    }
-                    /* 
-                      Set the previous scroll value equal to the current scroll.
-                    */
-                    previousScroll = currentScroll;
-                }
-
-            });
-
-            function hideNav() {
-                $("[data-nav-status='toggle']").removeClass("is-visible").addClass("is-hidden");
-            }
-
-            function showNav() {
-                $("[data-nav-status='toggle']").removeClass("is-hidden").addClass("is-visible");
-            }
-
-        });
     </script>
 </body>
