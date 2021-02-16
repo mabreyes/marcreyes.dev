@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Sailec-Regular";
+    src: url('nf/sailec_regular-webfont.woff')format('woff'), url('nf/sailec_regular-webfont.woff2')format('woff2');
+}
+
+@font-face {
+    font-family: "Sailec-Bold";
+    src: url('nf/sailec_bold-webfont.woff')format('woff'), url('nf/sailec_bold-webfont.woff2')format('woff2');
+}
+
+@font-face {
+    font-family: "Fixture-Expanded";
+    src: url('nf/fixture_expanded_extrabold-webfont.woff')format('woff'), url('nf/fixture_expanded_extrabold-webfont.woff2')format('woff2');
+}
