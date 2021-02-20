@@ -1,0 +1,35 @@
+- name: 🌿 TensorFlow Plant Leaf Disease Prediction
+  description: Identify common plant leaf diseases by just uploading an image. Made with TensorFlow and Django.
+  project_url: https://tf-plant-disease-prediction.marcreyes.xyz/
+  github_url: https://github.com/marcreyesph/tf-plant-disease-prediction
+  google_play_url: null
+- name: 🏫 Philippine Island Kids International Foundation Incorporated Student Database
+  description: Student database of PIKIFI beneficiaries and students. Made with Django. Assets and media deployed in S3.
+  project_url: https://pikifi.marcreyes.xyz/
+  github_url: null
+  google_play_url: null
+- name: 📱 PalayLab Android App
+  description: Machine Learning-powered mobile app for detecting rice plant diseases and pests. Powered by TensorFlow with support from TensorFlow Research Cloud. Available for download on Google Play.
+  project_url: https://palaylab.marcreyes.xyz/
+  github_url: https://github.com/marcreyesph/palaylab-mobile
+  google_play_url: https://play.google.com/store/apps/details?id=xyz.marcreyes.palaylab.app
+- name: 👥 Project Pag-Apil (Open Bangsamoro Data Challenge)
+  description: Data visualization entry for 2020 Open Bangsamoro Data Challenge.
+  project_url: https://project-pagapil.marcreyes.xyz
+  github_url: null
+  google_play_url: null
+- name: 🧠 AI Pilipinas 2018 Website
+  description: Official 2018 website for AI Pilipinas (followed by TensorFlow and Machine Learning Philippines and now of the same name).
+  project_url: https://ai-pilipinas.marcreyes.xyz
+  github_url: null
+  google_play_url: null
+- name: 🔗 marcrey.es URL Shortener
+  description: URL shortener for services hosted under *.marcreyes.ph and *.marcreyes.xyz. Backend powered by Rebrandly.
+  project_url: https://url-shortener.marcreyes.xyz
+  github_url: null
+  google_play_url: null
+- name: 👨‍💻 TensorFlow JS Demos - Machine Learning with JavaScript
+  description: Demo web apps using TensorFlow JS, a framework for deploying Machine Learning with JavaScript.
+  project_url: https://tf-js-demos.marcreyes.xyz
+  github_url: null
+  google_play_url: null

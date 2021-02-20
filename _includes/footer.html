@@ -1,0 +1,24 @@
+<div class="footer">
+    <span>&copy; 2021 Marc Reyes<br>More about me at <a href="https://marcreyes.ph">marcreyes.ph</a></span>
+</div>
+<script>
+    var modal = document.getElementById("sponsorModal");
+
+    var btn = document.getElementById("sponsorLaunch");
+
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>

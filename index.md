@@ -1,0 +1,45 @@
+---
+title: XYZ &mdash; Marc Reyes
+layout: default
+---
+
+# <span class="color">Hello, world.</span><br>XYZ is a project repo by Marc Reyes.
+
+### XYZ is a collection of projects I built on my free time. 📬 <a href="mailto:hi@marcreyes.xyz?subject=What's new at marcreyes.xyz">hi@marcreyes.xyz</a> for job and project opportunities.
+
+{% include projects.html %}
+
+<!-- <div class="card center sponsor">
+<div>
+    <h1>💝 Help me build more open-source projects</h1>
+    <p>Hosting, security, and more. Sponsor some of my projects and your help can go a long way.</p>
+</div>
+<div class="about">
+    <button href="#" id="sponsorLaunch">Sponsor Now</button>
+</div>
+<div id="sponsorModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>Sponsor</h1>
+        <p>Choose from the options below</p>
+        <h3>Paypal</h3>
+        <p style="margin-bottom: 20px;">One-time Sponsorship</p>
+        <a href="https://paypal.me/marcreyesph" target="_new" style="margin-bottom: 30px;">Sponsor with PayPal</a>
+        <p style="margin-bottom: 20px;">Recurring Sponsorship</p>
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_donations" />
+            <input type="hidden" name="business" value="6332RTTB3TNGU" />
+            <input type="hidden" name="item_name" value="XYZ by Marc Reyes open source project sponsorhip" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_PH/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+        <h3>Bitcoin</h3>
+        <img src="btc.jpg" alt="17onn54pNsgUPJ53STc1ANpGKq4vqZJqbj">
+        <p>17onn54pNsgUPJ53STc1ANpGKq4vqZJqbj</p>
+        <h3>Etherium</h3>
+        <img src="eth.jpg" alt="0xBdE5eB5820CFDA424Cc3D764194dA508Ef24fB2b">
+        <p>0xBdE5eB5820CFDA424Cc3D764194dA508Ef24fB2b</p>
+    </div>
+</div>
+</div> -->
