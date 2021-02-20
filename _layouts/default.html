@@ -12,8 +12,9 @@ layout: compress
 <body oncontextmenu="return false" onselectstart="return false">
     <article>
         {{ content }}
+        {% include footer.html %}
     </article>
-    {% include footer.html %}
+    {% include scripts.html %}
 </body>
 
 </html>
