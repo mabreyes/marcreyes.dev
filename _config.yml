@@ -1,0 +1,10 @@
+hero_text: <span class="color">Hello, world.</span><br>XYZ is a project repo by Marc Reyes.
+hero_description: XYZ is a collection of projects I built on my free time. 📬 <a href="mailto:hi@marcreyes.xyz?subject=What's new at marcreyes.xyz">hi@marcreyes.xyz</a> for job and project opportunities.
+compress_html:
+  clippings: all
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
