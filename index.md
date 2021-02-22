@@ -3,7 +3,7 @@ title: XYZ &mdash; Marc Reyes
 layout: default
 ---
 
-# {{ site.hero_text }}
+<h1 class="hero">{{ site.hero_text }}</h1>
 
 ### {{ site.hero_description }}
 
