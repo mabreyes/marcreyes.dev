@@ -235,3 +235,23 @@ button {
         font-size: 70px;
     }
 }
+
+.carousel-cell {
+    width: 90%;
+    height: 400px;
+    margin-right: 10px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 3em;
+}
+
+
+/* cell number */
+
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}

@@ -1,4 +1,29 @@
-{% for project in site.data.projects %}
+<div class="carousel"
+  data-flickity='{ "freeScroll": true }'>
+  {% for project in site.data.projects %}
+  <div class="carousel-cell card">
+    <div>
+        <h1>{{ project.name }}</h1>
+        <p>{{ project.description }}</p>
+    </div>
+    <div class="about">
+        {% if project.project_url %}
+        <a href="{{ project.project_url }}" class="project_url">Site</a>
+        {% else %}
+        {% endif %}
+        {% if project.github_url %}
+        <a href="{{ project.github_url }}" class="github_url">GitHub</a>
+        {% else %}
+        {% endif %}
+        {% if project.google_play_url %}
+        <a href="{{ project.google_play_url }}" class="google_play_url">Google Play</a>
+        {% else %}
+        {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<!-- {% for project in site.data.projects %}
 <div class="card">
     <div>
         <h1>{{ project.name }}</h1>
@@ -19,4 +44,4 @@
         {% endif %}
     </div>
 </div>
-{% endfor %}
+{% endfor %} -->
