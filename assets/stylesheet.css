@@ -220,7 +220,8 @@ button {
     body {
         padding: 5px;
     }
-    .about a {
+    .about a,
+    .sponsor button {
         width: 100%;
         text-align: center;
     }
@@ -242,5 +243,13 @@ button {
 @media (max-width: 500px) {
     h1 {
         font-size: 47px;
+    }
+    .card h1 {
+        font-size: 1.45em;
+    }
+    .card p,
+    .card a,
+    .sponsor button {
+        font-size: 17px;
     }
 }
