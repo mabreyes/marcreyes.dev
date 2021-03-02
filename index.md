@@ -7,6 +7,6 @@ layout: default
 
 ### {{ site.hero_description }}
 
-{% include projects.html %}
+<!-- {% include projects.html %} -->
 
 {% include sponsor.html %}
