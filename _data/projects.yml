@@ -1,3 +1,13 @@
+- name: 📝 ML Fill-in-the-Blanks
+  description: ML Fill-in-the-Blanks is a natural language processing (NLP) model that is trained to predict the missing word in the sentence. This project uses pre-trained bert-base-uncased as the prediction model.
+  project_url: https://ml-bert.marcreyes.xyz/
+  github_url: https://github.com/mabreyes/ml-fill-in-the-blanks
+  google_play_url: null
+- name: 📱 PalayLab Android App
+  description: Machine Learning-powered mobile app for detecting rice plant diseases and pests. Powered by TensorFlow with support from TensorFlow Research Cloud. Available for download on Google Play.
+  project_url: https://palaylab.marcreyes.xyz/
+  github_url: https://github.com/marcreyesph/palaylab-mobile
+  google_play_url: https://play.google.com/store/apps/details?id=xyz.marcreyes.palaylab.app
 - name: 🌿 TensorFlow Plant Leaf Disease Prediction
   description: Identify common plant leaf diseases by just uploading an image. Made with TensorFlow and Django.
   project_url: https://tf-plant-disease-prediction.marcreyes.xyz/
@@ -8,11 +18,6 @@
   project_url: https://pikifi.marcreyes.xyz/
   github_url: null
   google_play_url: null
-- name: 📱 PalayLab Android App
-  description: Machine Learning-powered mobile app for detecting rice plant diseases and pests. Powered by TensorFlow with support from TensorFlow Research Cloud. Available for download on Google Play.
-  project_url: https://palaylab.marcreyes.xyz/
-  github_url: https://github.com/marcreyesph/palaylab-mobile
-  google_play_url: https://play.google.com/store/apps/details?id=xyz.marcreyes.palaylab.app
 - name: 👥 Project Pag-Apil (Open Bangsamoro Data Challenge)
   description: Data visualization entry for 2020 Open Bangsamoro Data Challenge.
   project_url: https://project-pagapil.marcreyes.xyz
