@@ -6,15 +6,15 @@
     </div>
     <div class="about">
         {% if project.project_url %}
-        <a href="{{ project.project_url }}" class="project_url">Visit Site</a>
+        <a href="{{ project.project_url }}" class="project_url" target="_new">Visit Site</a>
         {% else %}
         {% endif %}
         {% if project.github_url %}
-        <a href="{{ project.github_url }}" class="github_url">Visit GitHub Page</a>
+        <a href="{{ project.github_url }}" class="github_url" target="_new">Visit GitHub Page</a>
         {% else %}
         {% endif %}
         {% if project.google_play_url %}
-        <a href="{{ project.google_play_url }}" class="google_play_url">Get on Google Play</a>
+        <a href="{{ project.google_play_url }}" class="google_play_url" target="_new">Get on Google Play</a>
         {% else %}
         {% endif %}
     </div>
