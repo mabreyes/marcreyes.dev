@@ -6,8 +6,8 @@
         </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
             {% if project.project_url %}
-            <a type="button" href="{{ project.project_url }}" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Visit Site</a> {% else %} {% endif %} {% if project.github_url %}
-            <a type="button" href="{{ project.github_url }}" class="btn btn-outline-secondary btn-lg px-4">GitHub</a> {% else %} {% endif %}
+            <a href="{{ project.project_url }}" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Visit Site</a> {% else %} {% endif %} {% if project.github_url %}
+            <a href="{{ project.github_url }}" class="btn btn-outline-secondary btn-lg px-4">GitHub</a> {% else %} {% endif %}
         </div>
     </div>
     <div class="col-lg-4 offset-lg-1 p-0 position-relative overflow-hidden shadow-lg">

@@ -57,22 +57,15 @@ article {
 a {
     font-family: 'Sharp Grotesk Medium 22', sans-serif;
     font-weight: 500 !important;
-    text-decoration: none;
-}
-
-p.description a {
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-decoration: none !important;
+    color: #0d6efd;
 }
 
 span.color {
     line-height: 1.1em;
     font-family: 'Sharp Grotesk SmBold 22', sans-serif;
     font-weight: bold;
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #0d6efd;
 }
 
 .footer {
@@ -84,12 +77,6 @@ span.color {
 
 .footer span {
     line-height: 1em !important;
-}
-
-.footer span a {
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .hero-div {
@@ -175,9 +162,13 @@ button {
 }
 
 .sponsor {
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-color: #0d6efd;
     color: #fff;
     z-index: 2;
+}
+
+.sponsor p {
+    color: #fff;
 }
 
 .sponsor button {
@@ -185,17 +176,11 @@ button {
     font-weight: 500;
     background-color: transparent;
     border: 2px solid #fff;
-    box-shadow: none;
 }
 
 .about {
     margin-top: 50px;
     margin-bottom: 10px;
-}
-
-.btn-primary {
-    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    border: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 
 .modal {
