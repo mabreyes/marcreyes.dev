@@ -194,6 +194,11 @@ button {
     margin-bottom: 10px;
 }
 
+.btn-primary {
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
 .modal {
     display: none;
     position: fixed;
