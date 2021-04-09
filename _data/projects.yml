@@ -1,5 +1,5 @@
 - name: 📝 ML Fill-in-the-Blanks
-  description: ML Fill-in-the-Blanks is a natural language processing (NLP) model that is trained to predict a missing word in a sentence.
+  description: ML Fill-in-the-Blanks is a natural language processing (NLP) model that is trained to predict the missing word in the sentence. This project uses pre-trained bert-base-uncased as the prediction model.
   image: ml-fill-in-the-blanks.png
   project_url: https://ml-fill-in-the-blanks.marcreyes.xyz/
   github_url: https://github.com/mabreyes/ml-fill-in-the-blanks
@@ -16,7 +16,7 @@
   project_url: https://tf-plant-disease-prediction.marcreyes.xyz/
   github_url: https://github.com/marcreyesph/tf-plant-disease-prediction
   google_play_url: null
-- name: 🏫 Philippine Island Kids Student Database
+- name: 🏫 Philippine Island Kids International Foundation Incorporated Student Database
   description: Student database of PIKIFI beneficiaries and students. Made with Django. Assets and media deployed in S3.
   image: pikifi.png
   project_url: https://pikifi.marcreyes.xyz/
@@ -40,7 +40,7 @@
   project_url: https://url-shortener.marcreyes.xyz
   github_url: null
   google_play_url: null
-- name: 👨‍💻 TensorFlow JS Demos - ML with JavaScript
+- name: 👨‍💻 TensorFlow JS Demos - Machine Learning with JavaScript
   description: Demo web apps using TensorFlow JS, a framework for deploying Machine Learning with JavaScript.
   image: tf-js-demos.png
   project_url: https://tf-js-demos.marcreyes.xyz
