@@ -50,7 +50,7 @@ table {
 article {
     display: block;
     text-align: left;
-    width: 900px;
+    width: 950px;
     margin: 0 auto;
 }
 
@@ -103,6 +103,18 @@ span.color {
     transition: 0.3s;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.card-title {
+    line-height: 1.2em !important;
+}
+
+.card::before {
+    background: #000;
+}
+
+.row {
+    margin-bottom: 2em !important;
 }
 
 .card img {
