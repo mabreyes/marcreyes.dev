@@ -1,22 +1,16 @@
 {% for project in site.data.projects %}
 <div class="card">
     <div>
+        {% if project.image %}
+        <img src="{{ site.aws_s3_bucket }}assets/images/{{ project.image }}" alt="{{ project.name }}"> {% else %} {% endif %}
         <h1>{{ project.name }}</h1>
         <p>{{ project.description }}</p>
     </div>
     <div class="about">
         {% if project.project_url %}
-        <a href="{{ project.project_url }}" class="project_url" target="_new">Visit Site</a>
-        {% else %}
-        {% endif %}
-        {% if project.github_url %}
-        <a href="{{ project.github_url }}" class="github_url" target="_new">Visit GitHub Page</a>
-        {% else %}
-        {% endif %}
-        {% if project.google_play_url %}
-        <a href="{{ project.google_play_url }}" class="google_play_url" target="_new">Get on Google Play</a>
-        {% else %}
-        {% endif %}
+        <a href="{{ project.project_url }}" class="project_url" target="_new">Visit Site</a> {% else %} {% endif %} {% if project.github_url %}
+        <a href="{{ project.github_url }}" class="github_url" target="_new">Visit GitHub Page</a> {% else %} {% endif %} {% if project.google_play_url %}
+        <a href="{{ project.google_play_url }}" class="google_play_url" target="_new">Get on Google Play</a> {% else %} {% endif %}
     </div>
 </div>
 {% endfor %}
