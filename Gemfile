@@ -1,5 +1,11 @@
-source 'https://rubygems.org'
-ruby '2.5.1'
+# frozen_string_literal: true
 
-gem 'github-pages'
-gem 'jekyll'
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+
+gem "jekyll", "~> 4.2"
+
+gem "webrick", "~> 1.7"
