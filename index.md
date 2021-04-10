@@ -5,7 +5,7 @@ layout: default
 
 <h1 class="hero display-1">{{ site.hero_text }}</h1>
 
-<p class="description">{{ site.hero_description }}</p>
+{{ site.hero_description }}
 
 {% include projects.html %}
 
