@@ -1,6 +1,7 @@
 hero_text: <span class="color">Hello, world.</span><br>XYZ is a project repo by Marc Reyes.
 hero_description: XYZ is a collection of projects I built on my free time. 📬 <a href="mailto:hi@marcreyes.xyz?subject=What's new at marcreyes.xyz">hi@marcreyes.xyz</a> for job and project opportunities.
 github_repo_url: https://github.com/marcreyesph/marcreyes.xyz
+base_url: https://marcreyes.xyz
 compress_html:
   clippings: all
   comments: [""]
