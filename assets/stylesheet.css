@@ -1,7 +1,7 @@
 * {
-    font-family: 'Sharp Grotesk Medium 22', sans-serif;
+    font-family: 'Circular', sans-serif;
+    font-weight: 300;
     line-height: 1.6em;
-    font-weight: 500;
 }
 
 body {
@@ -11,17 +11,21 @@ body {
 }
 
 h1 {
-    font-family: 'Sharp Grotesk SmBold 22', sans-serif;
-    font-weight: bold;
+    font-family: 'Circular', sans-serif;
+    font-weight: 800 !important;
     font-size: 90px;
     line-height: 1.1em;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     margin: 20px 0 0 0;
 }
 
+h1.fw-bold {
+    letter-spacing: -1px;
+}
+
 body {
-    font: 20px 'Sharp Grotesk Medium 22', sans-serif;
-    font-weight: 500;
+    font: 20px 'Circular', sans-serif;
+    font-weight: 300;
     color: #1c2018;
 }
 
@@ -55,16 +59,16 @@ article {
 }
 
 a {
-    font-family: 'Sharp Grotesk Medium 22', sans-serif;
-    font-weight: 500 !important;
+    font-family: 'Circular', sans-serif;
+    font-weight: 700 !important;
     text-decoration: none !important;
     color: #0d6efd;
 }
 
 span.color {
     line-height: 1.1em;
-    font-family: 'Sharp Grotesk SmBold 22', sans-serif;
-    font-weight: bold;
+    font-family: 'Circular', sans-serif;
+    font-weight: 800;
     color: #0d6efd;
 }
 
@@ -171,8 +175,8 @@ button {
 }
 
 .sponsor button {
-    font-family: 'Sharp Grotesk Medium 22', sans-serif;
-    font-weight: 500;
+    font-family: 'Circular', sans-serif;
+    font-weight: 700;
     background-color: transparent;
     border: 2px solid #fff;
 }
