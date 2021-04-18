@@ -1,6 +1,6 @@
 * {
-    font-family: 'Circular', sans-serif;
-    font-weight: 300;
+    font-family: 'Aktiv Grotesk Ex', sans-serif;
+    font-weight: 400 !important;
     line-height: 1.6em;
 }
 
@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    font-family: 'Circular', sans-serif;
+    font-family: 'Aktiv Grotesk Ex', sans-serif;
     font-weight: 700 !important;
     font-size: 90px;
     line-height: 1.1em;
@@ -24,7 +24,7 @@ h1.fw-bold {
 }
 
 body {
-    font: 20px 'Circular', sans-serif;
+    font: 20px 'Aktiv Grotesk Ex', sans-serif;
     font-weight: 300;
     color: #1c2018;
 }
@@ -59,7 +59,7 @@ article {
 }
 
 a {
-    font-family: 'Circular', sans-serif;
+    font-family: 'Aktiv Grotesk Ex', sans-serif;
     font-weight: 700 !important;
     text-decoration: none !important;
     color: #0d6efd;
@@ -67,8 +67,8 @@ a {
 
 span.color {
     line-height: 1.1em;
-    font-family: 'Circular', sans-serif;
-    font-weight: 700;
+    font-family: 'Aktiv Grotesk Ex', sans-serif;
+    font-weight: 700 !important;
     color: #0d6efd;
 }
 
@@ -175,7 +175,7 @@ button {
 }
 
 .sponsor button {
-    font-family: 'Circular', sans-serif;
+    font-family: 'Aktiv Grotesk Ex', sans-serif;
     font-weight: 700;
     background-color: transparent;
     border: 2px solid #fff;
