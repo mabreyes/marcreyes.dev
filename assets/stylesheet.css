@@ -91,6 +91,11 @@ span.color {
     line-height: 1em !important;
 }
 
+.footer span li {
+    display: inline;
+    margin-left: 10px;
+}
+
 .hero-div {
     margin-left: calc(-100vw / 2 + 800px / 2);
     margin-right: calc(-100vw / 2 + 800px / 2);
@@ -285,6 +290,12 @@ button {
     }
 }
 
+@media (max-width: 595px) {
+    .footer span li {
+        display: flex;
+    }
+}
+
 @media (max-width: 500px) {
     h1 {
         font-size: 47px;
@@ -297,12 +308,6 @@ button {
     .sponsor button {
         font-size: 17px;
     }
-    .display-1 {
-        font-size: 60px !important;
-    }
-}
-
-@media (max-width: 500px) {
     .display-1 {
         font-size: 50px !important;
     }
