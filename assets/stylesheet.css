@@ -93,7 +93,7 @@ span.color {
 
 .footer span li {
     display: inline;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .hero-div {
@@ -290,9 +290,19 @@ button {
     }
 }
 
-@media (max-width: 595px) {
+@media (max-width: 623px) {
+    .footer span li {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 575px) {
     .footer span li {
         display: flex;
+        margin-left: 0;
+    }
+    .footer span ul {
+        padding-left: 0;
     }
 }
 
