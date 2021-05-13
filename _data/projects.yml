@@ -20,7 +20,7 @@
   description: Student database of PIKIFI beneficiaries and students. Made with Django. Assets and media deployed in S3.
   image: pikifi.png
   project_url: https://pikifi.marcreyes.xyz/
-  github_url: null
+  github_url: https://github.com/mabreyes/pikifi-webapp-django
   google_play_url: null
 - name: 👥 Project Pag-Apil (Open Bangsamoro Data Challenge)
   description: Data visualization entry for 2020 Open Bangsamoro Data Challenge.
