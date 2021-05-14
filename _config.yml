@@ -12,4 +12,4 @@ compress_html:
   blanklines: false
   ignore:
     envs: []
-aws_s3_bucket: https://xyz-marcreyes-static-prod.s3-ap-southeast-1.amazonaws.com/
+aws_s3_bucket: https://cdn-s3.marcreyes.xyz/
