@@ -4,6 +4,7 @@ hero_description: XYZ is a collection of projects I built on my free time. 📬 
 description: XYZ is a collection of projects I built on my free time. 📬 hello@marcreyes.ph for job and project opportunities.
 github_repo_url: https://github.com/marcreyesph/marcreyes.xyz
 base_url: https://marcreyes.xyz
+cdn: https://cdn-static-s3.marcreyes.xyz/assets/marcreyesxyz
 compress_html:
   clippings: all
   comments: [""]
@@ -12,4 +13,3 @@ compress_html:
   blanklines: false
   ignore:
     envs: []
-aws_s3_bucket: https://cdn-s3.marcreyes.xyz/
