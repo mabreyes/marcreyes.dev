@@ -20,4 +20,6 @@ bundle install
 jekyll serve
 ```
 
+Licensed assets such as fonts are not included in this repository. You can purchase them at [https://lineto.com](https://lineto.com).
+
 The site can now be accessed at `localhost:4000`. This repo is open source so you can modify this template. However, please make some attributions to me, the owner (plagiarism is bad folks).
