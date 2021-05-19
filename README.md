@@ -1,4 +1,4 @@
-# 🚀 XYZ by Marc Reyes
+# 🚀 marcreyes.xyz
 
 XYZ is a collection of projects I built on my free time.
 
