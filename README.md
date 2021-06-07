@@ -1,6 +1,6 @@
-# 🚀 marcreyes.xyz
+# 🚀 dev.marcreyes.ph
 
-XYZ is a collection of projects I built on my free time.
+DEV is a collection of projects I built on my free time.
 
 ## Setup
 1. Install and use the required version of Ruby on your machine with [RVM](https://rvm.io/).
