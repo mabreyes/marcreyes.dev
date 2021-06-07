@@ -12,10 +12,9 @@
     </div>
     <div class="col-lg-4 offset-lg-1 p-0 position-relative overflow-hidden shadow-lg">
         <div class="position-lg-absolute top-0 left-0 overflow-hidden">
-            {% assign img_url = project.image %} 
+            {% assign img_url = project.image %}
             {% assign c_img_url = "images/" | append: img_url %}
-            {% assign cdn_url = site.cdn_url %}
-            <img class="d-block rounded-lg-3" src="{{  cdn_url | append: c_img_url }}" alt="{{ project.name }} - {{ project.description }}" width="700px">
+            <img class="d-block rounded-lg-3" src="{{ c_img_url | cdn }}" alt="{{ project.name }} - {{ project.description }}" width="700px">
         </div>
     </div>
 </div>

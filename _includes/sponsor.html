@@ -40,10 +40,9 @@
                         <p class="lead">Made possible with PayPal</p>
                     </div>
                 </div>
-                {% assign cdn_url = site.cdn_url %}
                 <div class="row flex-lg-row-reverse align-items-center">
                     <div class="col-10 col-sm-8 col-lg-6">
-                        <img src="{{ cdn_url | append: 'images/btc.jpg' }}" class="d-block mx-lg-auto img-fluid" alt="17onn54pNsgUPJ53STc1ANpGKq4vqZJqbj" loading="lazy">
+                        <img src="{{ 'images/btc.jpg' | cdn }}" class="d-block mx-lg-auto img-fluid" alt="17onn54pNsgUPJ53STc1ANpGKq4vqZJqbj" loading="lazy">
                     </div>
                     <div class="col-lg-6">
                         <h3 class="fs-4">Bitcoin</h3>
@@ -52,7 +51,7 @@
                 </div>
                 <div class="row flex-lg-row-reverse align-items-center">
                     <div class="col-10 col-sm-8 col-lg-6">
-                        <img src="{{ cdn_url | append: 'images/eth.jpg' }}" class="d-block mx-lg-auto img-fluid" alt="0xBdE5eB5820CFDA424Cc3D764194dA508Ef24fB2b" loading="lazy">
+                        <img src="{{ 'images/eth.jpg' | cdn }}" class="d-block mx-lg-auto img-fluid" alt="0xBdE5eB5820CFDA424Cc3D764194dA508Ef24fB2b" loading="lazy">
                     </div>
                     <div class="col-lg-6">
                         <h3 class="fs-4">Etherium</h3>
