@@ -1,7 +1,7 @@
 - name: 📝 ML Fill-in-the-Blanks
   description: ML Fill-in-the-Blanks is a natural language processing (NLP) model that is trained to predict the missing word in the sentence. This project uses pre-trained bert-base-uncased as the prediction model.
   image: ml-fill-in-the-blanks.png
-  project_url: https://ml-fill-in-the-blanks.marcreyes.xyz/
+  project_url: null
   github_url: https://github.com/mabreyes/ml-fill-in-the-blanks
   google_play_url: null
 - name: 📱 PalayLab Android App
