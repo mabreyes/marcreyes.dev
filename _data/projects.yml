@@ -8,13 +8,13 @@
   description: Machine Learning-powered mobile app for detecting rice plant diseases and pests. Powered by TensorFlow with support from TensorFlow Research Cloud. Available for download on Google Play.
   image: palaylab.png
   project_url: https://palaylab.marcreyes.xyz/
-  github_url: https://github.com/marcreyesph/palaylab
+  github_url: https://github.com/mabreyes/palaylab
   google_play_url: https://play.google.com/store/apps/details?id=xyz.marcreyes.palaylab.app
 - name: 🌿 TensorFlow Plant Leaf Disease Prediction
   description: Identify common plant leaf diseases by just uploading an image. Made with TensorFlow and Django.
   image: disease-detect.png
   project_url: https://tf-plant-disease-prediction.marcreyes.xyz/
-  github_url: https://github.com/marcreyesph/tf-plant-disease-prediction
+  github_url: https://github.com/mabreyes/tf-plant-disease-prediction
   google_play_url: null
 - name: 🏫 Philippine Island Kids International Foundation Incorporated Student Database
   description: Student database of PIKIFI beneficiaries and students. Made with Django. Assets and media deployed in S3.
