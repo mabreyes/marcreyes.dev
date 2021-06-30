@@ -1,5 +1,5 @@
-- name: Remaining Days of PDuts
-  description: Let's count PDuts remaining days together. 
+- name: ⌛ Remaining Days of PDuts
+  description: Let's count PDuts's remaining days together. 
   image: remaining-days-pduts.png
   project_url: https://remainingdaysofpduts.marcreyes.xyz
   github_url: https://github.com/mabreyes/pduts-remaining-days
