@@ -1,8 +1,9 @@
 - name: ⌛ Remaining Days of PDuts
   description: Let's count PDuts's remaining days together. 
-  image: remaining-days-pduts.png
+  image: https://remainingdaysofpduts.marcreyes.xyz/images/today.jpg
   project_url: https://remainingdaysofpduts.marcreyes.xyz
   github_url: https://github.com/mabreyes/pduts-remaining-days
+  override_image: true 
   google_play_url: null
 - name: 📝 ML Fill-in-the-Blanks
   description: ML Fill-in-the-Blanks is a natural language processing (NLP) model that is trained to predict the missing word in the sentence. This project uses pre-trained bert-base-uncased as the prediction model.
