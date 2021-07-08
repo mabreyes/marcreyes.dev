@@ -4,7 +4,7 @@ hero_description: DEV is a collection of projects I built on my free time. Hit m
 description: DEV is a collection of projects I built on my free time. Hit me up at 📬 hello@marcreyes.ph for job and project opportunities.
 github_repo_url: https://github.com/mabreyes/dev.marcreyes.ph
 base_url: https://dev.marcreyes.ph
-cdn: https://cdn-static-s3.marcreyes.xyz/assets/marcreyesxyz
+cdn: http://127.0.0.1:4000
 compress_html:
   clippings: all
   comments: [""]

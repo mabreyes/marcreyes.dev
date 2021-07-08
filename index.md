@@ -9,4 +9,4 @@ layout: default
 
 {% include projects.html %}
 
-{% include sponsor.html %}
+<!-- {% include sponsor.html %} -->
