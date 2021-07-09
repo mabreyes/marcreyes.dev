@@ -23,7 +23,7 @@
   project_url: https://tf-plant-disease-prediction.marcreyes.xyz/
   github_url: https://github.com/mabreyes/tf-plant-disease-prediction
   google_play_url: null
-- name: 🏫 Philippine Island Kids International Foundation Incorporated Student Database
+- name: 🏫 Philippine Island Kids International Foundation Student Database
   description: Student database of PIKIFI beneficiaries and students. Made with Django. Assets and media deployed in S3.
   image: pikifi.png
   project_url: https://pikifi.marcreyes.xyz/
