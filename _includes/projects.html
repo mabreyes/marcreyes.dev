@@ -1,18 +1,18 @@
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
     {% for project in site.data.projects %}
     <div class="col">
-        <div class="card shadow-sm">
+        <div class="card bg-dark text-white">
             {% if project.override_image == true %}
-            <img class="bd-placeholder-img card-img-top" src="{{ project.image }}" alt="{{ project.name }} - {{ project.description }}" width="700px"> {% else %} {% assign img_url = project.image %} {% assign c_img_url = "images/" | append: img_url %}
-            <img class="bd-placeholder-img card-img-top" src="{{ c_img_url | cdn }}" alt="{{ project.name }} - {{ project.description }}" width="700px"> {% endif %}
-            <div class="card-body">
-                <h3 class="card-title">{{ project.name }}</h3>
+            <img class="card-img" src="{{ project.image }}" alt="{{ project.name }} - {{ project.description }}" width="700px"> {% else %} {% assign img_url = project.image %} {% assign c_img_url = "images/" | append: img_url %}
+            <img class="card-img" src="{{ c_img_url | cdn }}" alt="{{ project.name }} - {{ project.description }}" width="700px"> {% endif %}
+            <div class="card-img-overlay overlay-dark">
+                <h2 class="card-title">{{ project.name }}</h2>
                 <p class="card-text">{{ project.description }}</p>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                         {% if project.project_url %}
-                        <button href="{{ project.project_url }}" type="button" class="btn btn-sm btn-outline-secondary" target="_blank" rel="noopener noreferrer">Visit Site</button> {% else %} {% endif %} {% if project.github_url %}
-                        <button href="{{ project.github_url }}" type="button" class="btn btn-sm btn-outline-secondary" target="_blank" rel="noopener noreferrer">Visit GitHub</button> {% else %} {% endif %}
+                        <a href="{{ project.project_url }}" type="button" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">Visit Site</a> {% else %} {% endif %} {% if project.github_url %}
+                        <a href="{{ project.project_url }}" type="button" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">Visit GitHub</a> {% else %} {% endif %}
                     </div>
                 </div>
             </div>
