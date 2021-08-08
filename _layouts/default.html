@@ -1,5 +1,5 @@
----
-layout: compress
+--- 
+layout: compress 
 ---
 
 <!DOCTYPE html>
@@ -10,11 +10,17 @@ layout: compress
 </head>
 
 <body oncontextmenu="return false" onselectstart="return false">
-    {% include ribbon.html %}
-    <article>
-        {{ content }}
-        {% include footer.html %}
-    </article>
+    <div class="navbar-custom">
+        <div class="container">
+            <div class="content-wrap">
+                <a href="https://marcrey.es/dev">👨‍💻 DEV</a>
+                <a class="right" href="#sponsor">💝 Sponsor Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        {{ content }} {% include footer.html %}
+    </div>
     {% include scripts.html %}
 </body>
 
