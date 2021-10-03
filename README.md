@@ -1,4 +1,4 @@
-# 🚀 dev.marcreyes.ph
+# 🚀 marcreyes.dev
 
 DEV is a collection of projects I built on my free time.
 
